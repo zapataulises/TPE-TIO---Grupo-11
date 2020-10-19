@@ -1,0 +1,17 @@
+.formulario {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+}
+.radio {
+  margin: 5px;
+}
+@media only screen and (min-width: 769px) {
+  .form-control {
+    width: 70%;
+  }
+}
