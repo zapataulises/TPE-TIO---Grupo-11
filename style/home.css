@@ -1,0 +1,46 @@
+h1 {
+  font-size: 60px;
+  text-shadow: 1px 1px 2px black, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+  text-align: center;
+  margin: 0px;
+}
+table {
+  margin: 1em;
+}
+table tr td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+thead,
+tfoot {
+  background-color: blueviolet;
+  color: white;
+}
+
+.logoig {
+  width: 80px;
+  height: 80px;
+}
+
+.foot {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  background: linear-gradient(
+    rgb(184, 184, 184),
+    rgb(129, 129, 129),
+    rgb(105, 105, 105),
+    rgb(85, 85, 85)
+  );
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+  font-size: x-large;
+}
+
+@media only screen and (min-width: 361px) {
+  .foot {
+    position: fixed;
+  }
+}
