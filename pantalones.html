@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/comments.css" />
+    <link rel="stylesheet" href="styles/productos.css" />
   </head>
 
   <body>
@@ -56,35 +56,65 @@
         </ul>
       </div>
     </nav>
-    <article>
-      <form action="" class="formulario">
-        <p>Nombre: <input type="text" name="nombre" required /></p>
-        <p>Apellido: <input type="text" name="apellido" required /></p>
-        <p>Numero de Telefono <input type="text" name="numero" required /></p>
-        <p class="city">
-          Sucursal a comentar:
-          <input type="radio" name="scs" value="tnd" class="radio" /> Tandil
-          <input type="radio" name="scs" value="bsas" class="radio" /> Buenos
-          Aires <input type="radio" name="scs" value="lp" class="radio" /> La
-          Plata <input type="radio" name="scs" value="mdq" class="radio" /> Mar
-          del Plata
-        </p>
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-        <p>
-          Resolver la operacion: <span id="n1"></span> + <span id="n2"></span>
-          <input type="number" id="captcha" />
-        </p>
-        <p id="verif">El captcha aun no se introdujo</p>
-        <p>
-          <input type="submit" value="Enviar" disabled id="submit" />
-        </p>
-      </form>
+    <article class="estilo">
+      <section class="tipo1">
+        <h1>Pantalones Deportivos</h1>
+        <ul class="tipo2">
+          <li class="productos">
+            <h2>Adidas OBlack</h2>
+            <img
+              src="img/pantalon1.jpg"
+              alt="Adidas Original Black"
+              class="imagenP"
+            />
+            <h3>$51</h3>
+          </li>
+          <li class="productos">
+            <h2>Adidas CABJ.</h2>
+            <img src="img/pantalon5.jpg" alt="Adidas CABJ" class="imagenP" />
+            <h3>$46</h3>
+          </li>
+          <li class="productos">
+            <h2>Ad. Big Trefoil</h2>
+            <img
+              src="img/pantalon6.jpg"
+              alt="Adidas Big Trefoil"
+              class="imagenP"
+            />
+            <h3>$38</h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="tipo1">
+        <h1>Pantalones Street</h1>
+        <ul class="tipo2">
+          <li class="productos">
+            <h2>Adidas R.Y.V</h2>
+            <img src="img/pantalon2.jpg" alt="Adidas RYV" class="imagenP" />
+            <h3>$43</h3>
+          </li>
+          <li class="productos">
+            <h2>Ad. Sst Blue</h2>
+            <img
+              src="img/pantalon3.jpg"
+              alt="Adidas Sst Blue"
+              class="imagenP"
+            />
+            <h3>$55</h3>
+          </li>
+          <li class="productos">
+            <h2>Adidas ORed</h2>
+            <img
+              src="img/pantalon4.jpg"
+              alt="Adidas Original Rojo"
+              class="imagenP"
+            />
+            <h3>$39</h3>
+          </li>
+        </ul>
+      </section>
     </article>
-    <script src="js/captcha.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

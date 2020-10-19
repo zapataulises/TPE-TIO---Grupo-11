@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/comments.css" />
+    <link rel="stylesheet" href="styles/productos.css" />
   </head>
 
   <body>
@@ -56,35 +56,53 @@
         </ul>
       </div>
     </nav>
-    <article>
-      <form action="" class="formulario">
-        <p>Nombre: <input type="text" name="nombre" required /></p>
-        <p>Apellido: <input type="text" name="apellido" required /></p>
-        <p>Numero de Telefono <input type="text" name="numero" required /></p>
-        <p class="city">
-          Sucursal a comentar:
-          <input type="radio" name="scs" value="tnd" class="radio" /> Tandil
-          <input type="radio" name="scs" value="bsas" class="radio" /> Buenos
-          Aires <input type="radio" name="scs" value="lp" class="radio" /> La
-          Plata <input type="radio" name="scs" value="mdq" class="radio" /> Mar
-          del Plata
-        </p>
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-        <p>
-          Resolver la operacion: <span id="n1"></span> + <span id="n2"></span>
-          <input type="number" id="captcha" />
-        </p>
-        <p id="verif">El captcha aun no se introdujo</p>
-        <p>
-          <input type="submit" value="Enviar" disabled id="submit" />
-        </p>
-      </form>
+    <article class="estilo">
+      <section class="tipo1">
+        <h1>Remeras Deportivas</h1>
+        <ul class="tipo2">
+          <li class="productos">
+            <h2>Adidas Arg.</h2>
+            <img src="img/remera1.jpg" alt="Adidas Argentina" class="imagenP" />
+            <h3>$42</h3>
+          </li>
+          <li class="productos">
+            <h2>Adidas CARP.</h2>
+            <img src="img/remera4.jpg" alt="Adidas River" class="imagenP" />
+            <h3>$32</h3>
+          </li>
+          <li class="productos">
+            <h2>Adidas CABJ.</h2>
+            <img src="img/remera5.jpg" alt="Adidas CABJ" class="imagenP" />
+            <h3>$36</h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="tipo1">
+        <h1>Remeras Street</h1>
+        <ul class="tipo2">
+          <li class="productos">
+            <h2>Adidas CLRDO</h2>
+            <img src="img/remera2.jpg" alt="Adidas CLRDO" class="imagenP" />
+            <h3>$32</h3>
+          </li>
+          <li class="productos">
+            <h2>Ad. Vintage</h2>
+            <img src="img/remera3.jpg" alt="Adidas Vintage" class="imagenP" />
+            <h3>$45</h3>
+          </li>
+          <li class="productos">
+            <h2>Amplifier Tee</h2>
+            <img
+              src="img/remera6.jpg"
+              alt="Adidas Amplifier Tee 2"
+              class="imagenP"
+            />
+            <h3>$40</h3>
+          </li>
+        </ul>
+      </section>
     </article>
-    <script src="js/captcha.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
