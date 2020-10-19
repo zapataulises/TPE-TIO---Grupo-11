@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   padding: 0%;
   margin: 0%;
   background: rgba(184, 184, 184);
@@ -25,3 +26,31 @@ body {
 .nav-item {
   text-shadow: 1px 1px 2px black, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
 }
+=======
+    padding: 0%;
+    margin: 0%;
+    background: rgba(184, 184, 184);
+    background-size: cover;
+  }
+  .bg-dark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(
+      rgb(85, 85, 85),
+      rgb(105, 105, 105),
+      rgb(129, 129, 129),
+      rgb(184, 184, 184)
+    ) !important;
+  }
+  .logo {
+    width: 6em;
+  }
+  .navbar-nav {
+    text-align: right;
+    font-size: larger;
+  }
+  .nav-item {
+    text-shadow: 1px 1px 2px black, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+  }
+>>>>>>> c2518e5a090d9db2b1944539a31b04bee3260467
