@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Clothing</title>
+    <link rel="shortcut icon" href="img/owl2.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/comments.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="img/owl.png" alt="" class="logo" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExample08"
+        aria-controls="navbarsExample08"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="navbar-collapse justify-content-md-center collapse"
+        id="navbarsExample08"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="zapatillas.html">Zapatillas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comentarios.html">Comentarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <article>
+      <form action="" class="formulario">
+        <p>Nombre: <input type="text" name="nombre" required /></p>
+        <p>Apellido: <input type="text" name="apellido" required /></p>
+        <p>Numero de Telefono <input type="text" name="numero" required /></p>
+        <p class="city">
+          Sucursal a comentar:
+          <input type="radio" name="scs" value="tnd" class="radio" /> Tandil
+          <input type="radio" name="scs" value="bsas" class="radio" /> Buenos
+          Aires <input type="radio" name="scs" value="lp" class="radio" /> La
+          Plata <input type="radio" name="scs" value="mdq" class="radio" /> Mar
+          del Plata
+        </p>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+        <p>
+          Resolver la operacion: <span id="n1"></span> + <span id="n2"></span>
+          <input type="number" id="captcha" />
+        </p>
+        <p id="verif">El captcha aun no se introdujo</p>
+        <p>
+          <input type="submit" value="Enviar" disabled id="submit" />
+        </p>
+      </form>
+    </article>
+    <script src="js/captcha.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
