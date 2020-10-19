@@ -1,0 +1,78 @@
+h1 {
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black, 0 0 1em blueviolet, 0 0 0.2em blueviolet;
+  text-align: center;
+  margin: 1em;
+}
+.din-table {
+  display: grid;
+}
+form {
+  margin-left: 0.5em;
+}
+.tableCont {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+.table {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+.filterCont {
+  display: flex;
+  align-items: baseline;
+}
+#sel-price {
+  margin: 0.5em;
+}
+.inp {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+thead {
+  background-color: blueviolet;
+  color: white;
+}
+tr td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding-left: 0.2em;
+}
+th {
+  border: solid black 1px;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
+}
+.delth {
+  padding-right: 0.2em;
+  background-color: rgba(184, 184, 184);
+  border: 0;
+}
+.remove {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .din-table {
+    display: flex;
+    justify-content: space-between;
+  }
+  th {
+    border: solid black 1px;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  tr td {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .delth {
+    padding-right: 2em;
+  }
+  .tableCont {
+    margin-right: 1em;
+  }
+}
